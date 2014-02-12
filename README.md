@@ -3,7 +3,7 @@ AppJS
 
 All of the current MVC JS frameworks where FAR too complicated. So I made this super simple 'framework' for creating rapid MVC apps in JS.
 
-# Dependencies.
+# Dependencies
 - [Grapnel.js](https://github.com/gregsabia/Grapnel.js/tree/master) - used for hashbang routing.
 - [Underscore.js] (https://github.com/jashkenas/underscore) - Template rendering and array tools.
 
@@ -80,3 +80,8 @@ app.extend("home",{
 ```
 
 will render the model values into our view. see ``_.js`` templating for more information.
+
+# Development
+This project will progress as my use of it increases. Expect binding from objects to dom elements to be the next feature and the loading of remote 'views'. 
+
+I'll accept pull requests on nice features or bug fixes, but the aim of this project is to keep things lite. I'm not trying to build a replacement for ember. 
