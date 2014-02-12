@@ -73,7 +73,7 @@ app.extend("home",{
 
     /* register a function to be used by out controller */
     page: function(){ 
-        return app.views.show("home", app.models.get("user"));
+        return app.views.show("home", app.models.get("page"));
     }
 
 });
